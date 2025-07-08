@@ -245,6 +245,7 @@ hi! link Tag Special
 hi! link Terminal Normal
 hi! link Title GhBase4
 hi! link Type GhRed
+hi! link Ignore GhBase3
 
 " ALE
 
