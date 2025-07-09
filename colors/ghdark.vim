@@ -20,6 +20,7 @@ let g:github_colors = {
   \ "lightblue"    : ["#a2d2fb", 153],
   \ "blue"         : ["#77bdfb", 75],
   \ "purp"         : ["#cea5fb", 183],
+  \ "cyan"         : ["#154360", 24],
   \ "none"         : ["NONE", "NONE"]
   \ }
 
@@ -177,7 +178,7 @@ call s:ghhl("StatusLine", "base5", "base2")
 call s:ghhl("StatusLineNC", "base3", "base1")
 call s:ghhl("Todo", "base4", "base0")
 call s:ghhl("VertSplit", "base1", "base1")
-call s:ghhl("Visual", "none", "base0", "reverse")
+call s:ghhl("Visual", "none", "cyan")
 call s:ghhl("WarningMsg", "orange", "base1")
 
 "########################################
